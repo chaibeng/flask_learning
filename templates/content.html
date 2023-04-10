@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    {% if msg %}
+    <p>{{ msg }}</p>
+    {% endif %}
+
+    {% if names_content %}
+    <h2>Names:</h2>
+
+    <ul>
+    {% for name in names_content %}
+    <li>{{ name[0] }}</li>
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+
+</body>
+</html>

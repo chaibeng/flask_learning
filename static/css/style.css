@@ -1,0 +1,12 @@
+/* This is a comment in CSS */
+body {
+    background-color: #9c1212; /* Sets the background color to white */
+    font-family: Arial, sans-serif; /* Sets the font family to Arial or a similar sans-serif font */
+  }
+  
+  h1 {
+    color: #190575; /* Sets the text color to black */
+    font-size: 32px; /* Sets the font size to 32 pixels */
+    text-align: center; /* Centers the text horizontally */
+  }
+  

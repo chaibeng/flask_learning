@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is an example meta tag.">
+	<title>Example HTML Document</title>
+
+	<script src="{{ url_for('static', filename='js/index.js') }}"> </script>
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+
+</head>
+
+<body>
+	<h1>Hello, world!</h1>
+	<p>Welcome to my web page.</p>
+
+	<div onclick="test()"id="div-content">
+		I'm from HTML
+	</div>
+
+	<img src="{{ url_for('static', filename='images/R&S_japan.jpg') }}" alt="My Image">
+
+
+
+</body>
+</html>
